@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3 | A Responsive Web Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./Altlogo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/brands.min.css"
+      integrity="sha512-8RxmFOVaKQe/xtg6lbscU9DU0IRhURWEuiI0tXevv+lXbAHfkpamD4VKFQRto9WgfOJDwOZ74c/s9Yesv3VvIQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <main aria-label="container">
+        <nav role="navigation">
+            <ul class="left-list">
+                <li>
+                    <img src="./images/wp logo.jpg" alt="Wp Pusher Logo" class="logo" />
+                </li>
+                <li>
+                    <a href="https://www.hng.com" > HNG Link</a>
+                </li>
+            </ul>
+            <ul class="right-list">
+                <li>Download</li>
+                <li>Learn more</li>
+                <li>Pricing</li>
+                <li>Help</li>
+                <button>Account</button>
+            </ul>
+        </nav>
+        <section>
+            <div class="left-division">
+                <div class="heading"><h1>Checkout</h1></div>
+                <button><a href="https://hng.tech/premium">HNG Link</a></button>
+                <div class="middle-section">
+                    <div class="Information">
+                        <button class="fig">1</button>
+                        <h2>Your Basic Information</h2>
+                    </div>
+                    <div class="block">
+                        <div class="name">
+                            <label for="firstname">First Name</label>
+                            <input
+                                type="text"
+                                id="firstname"
+                                name="firstname"
+                                placeholder="Gbenga"
+                                required
+                            />
+                        </div>
+                        <div>
+                            <label for="lastname">Last Name</label>
+                            <input
+                                type="text"
+                                id="lastname"
+                                name="lastname"
+                                placeholder="Okunniyi"
+                                required
+                            />
+                        </div>
+                    </div>
+                    <div class="email">
+                        <label for="email">E-mail</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="evelynokunniyi@gmail.com"
+                            required
+                        />
+                    </div>
+                </div>
+                <div class="card-section">
+                    <div class="Information">
+                        <button class="fig">2</button>
+                        <h2>Your Payment Information</h2>
+                    </div>
+                    <div>
+                        <div><label for="card">Credit Card</label></div>
+                        <div class="cardinput">
+                            <input
+                                type="text"
+                                id="card"
+                                name="card"
+                                placeholder="Card Number"
+                                required
+                            />
+                            <input
+                                type="text"
+                                id="year"
+                                name="year"
+                                placeholder="MM/YY"
+                                required
+                            />
+                            <input
+                                type="text"
+                                id="cvc"
+                                name="cvc"
+                                placeholder="CVC"
+                                required
+                            />
+                        </div>
+                    </div>
+                </div>
+                <button id="pusher">Buy WP Pusher</button>
+                <div id="text">
+                    <button class="fig2">?</button>
+                    <pre>
+                        <p class="contact">
+                            <span class="help"> Need any help?</span> Don't hesitate to <u>contact</u><br>support!
+                        </p>
+                    </pre>
+                </div>
+                <div class="image">
+                    <img src="./images/stripe logo.png" alt="stripe logo" id="stripe" />
+                </div>
+            </div>
+            <div class="rightside">
+                <h4>Freelancer</h4>
+                <h6><sup>$</sup>99<sub>/year</sub></h6>
+                <div class="auto">
+                    <h5>
+                        <pre>Automatically renews<br>after 1 year</pre>
+                    </h5>
+                </div>
+                <div class="check">
+                    <button class="fig3"><i class="fa-solid fa-check"></i></button>
+                    <h3>Use on 5 client sites</h3>
+                </div>
+                <div class="check">
+                    <button class="fig3"><i class="fa-solid fa-check"></i></button>
+                    <h3>Private repositories</h3>
+                </div>
+                <div class="check">
+                    <button class="fig3"><i class="fa-solid fa-check"></i></button>
+                    <h3>Email support</h3>
+                </div>
+                <div class="client">
+                    <h3>Need 20 client sites?</h3>
+                    <h3 id="switch"><u>Switch to the Agency plan</u></h3>
+                </div>
+                <div class="last-paragraph">
+                    <p id="last-text">
+                        FTP is horrible to deal with <br> <strong>WP Pusher</strong> solves that <br>
+                        issue, and the customer <br> support is
+                        awesome!
+                    </p>
+                </div>
+                <div class="kirk">
+                    <img src="./images/kirk.png" alt="kirk image" />
+                    <h3><b>Kirk Beard</b></h3>
+                </div>
+            </div>
+        </section>
+        <footer>
+            &copy; 2018 WP Pusher IVS - <a href="https://hng.tech">Terms of Service</a>
+        </footer>
+    </main>
+</body>
+</html>
